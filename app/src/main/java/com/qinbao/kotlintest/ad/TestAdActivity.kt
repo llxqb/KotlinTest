@@ -19,6 +19,7 @@ class TestAdActivity : AppCompatActivity() {
     }
 
 
+    //我是改变的地方
     private fun initView() {
         //信息流横版广告  视频宽高比 1.78
         mCSJHelper.loadNativeExpressAd(
