@@ -12,6 +12,9 @@ import com.s20cxq.ad.csj.help.CSJHelper
 import com.s20cxq.ad.csj.listener.JHVideoADListener
 import kotlinx.android.synthetic.main.activity_main.*
 
+/**
+ * 我是master 分支
+ */
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     private val TAG = "MainActivity"
@@ -20,13 +23,17 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //我是改变的地方
         initView()
+        initData()//我是改变的地方
     }
 
     private fun initView() {
         to_ad_page_btn.setOnClickListener(this)
         to_test_kotlin_page_btn.setOnClickListener(this)
+    }
+
+    private fun initData(){
+
     }
 
     override fun onClick(v: View) {
