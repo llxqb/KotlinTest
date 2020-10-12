@@ -13,7 +13,7 @@ import com.s20cxq.ad.csj.listener.JHVideoADListener
 import kotlinx.android.synthetic.main.activity_main.*
 
 /**
- *  我是第二个分支
+ *  我是第三个分支
  *  测试 把master分支合并过来
  */
 class MainActivity : AppCompatActivity(), View.OnClickListener {
